@@ -56,3 +56,30 @@ nav {
       .frase-principal{
     
 }
+
+.especialistas
+{
+    font-family: "Jost";
+    text-align: center;
+    color: black;
+}
+
+.tabla-body
+{
+    background-color: white;
+    width:auto
+}
+
+.tabla-personas
+{
+    background-color: #ff7f99;
+    height: 500px;
+    width: 100%;
+}
+.imagen-redonda
+{
+    width: 277px;
+    height: 277px;
+    border-radius: 50%;
+    margin: 25px;
+}
