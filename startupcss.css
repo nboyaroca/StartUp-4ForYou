@@ -1,22 +1,40 @@
-#capçelera {
+@font-face{
+    font-family: JostRegular;
+    src: local("Jost Regular"),
+	local("Jost-Regular"),
+	url(./Jost/Jost-Regular.ttf);
+}
+@font-face{
+    font-family: JostCursiva;
+    src: local("Jost Italic"),
+	local("Jost-Italic"),
+	url(./Jost/Jost-Italic.ttf);
+}
+body{
+    font-family: JostRegular;
+}
+li{
+	font-family: JostCursiva;
+}
+#capçalera {
 	background: #FF7F99;
 	height: 100px;
 }	
-	#capçelera a {
-		color: rgb(255, 255, 255);
-	}
-#titol-capçelera {
+#capçalera a {
+	color: rgb(255, 255, 255);
+}
+#titol-capçalera {
 	float: left;
 	padding: 15px 0 0 20px;
 	text-decoration: none;
 }
-	#titol-capçelera:hover {
+	#titol-capçalera:hover {
 		color: #45494b;
 	}
 	
-	#titol-capçelera .titol {
+	#titol-capçalera .titol {
 		display: block;
-		font-weight: 700;
+    	font-weight: 700;
 		font-size: 1.2em;
 	}
 nav {
