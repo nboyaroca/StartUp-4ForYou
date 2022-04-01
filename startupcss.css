@@ -1,4 +1,13 @@
-.central-image{
-    margin-top: ;
+.imagen-central{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 30%;
+    border:2px solid #fff;
+    display: block;
 
+}
+
+.frase-principal{
+    
 }
