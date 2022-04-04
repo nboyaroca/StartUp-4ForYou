@@ -61,19 +61,43 @@ nav {
 				nav ul li a:hover {
 					background: #45494b;
                 }
-      .imagen-central{
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin: 30%;
-    border:2px solid #fff;
-    display: block;
+               
+				
+				.box-central{
+					width: 1877px;
+					height: 800px;
+					border: 5px solid currentColor;
+					display: flex;
+				   }
+				
+				.imagen-central{
+					width: 600px;
+					height: 600px;
+					border:2px solid #fff;
+					display: block;
+					margin-top: 5%;
+					margin-left: 8%;
+					
+				
+				}
+				
+				.frase-principal{
+					margin-top: 30%;
+					margin-left: 50%;
+					font-size: 100px;
+				}
+				
+				.frase-secundaria{
+					margin-top: 0%;
+					
+				}
+				
+				.boton-llamamos{
+					width: 100px;
+					height: 60px;
+					margin-top: 0%;
+				}
 
-}
-
-      .frase-principal{
-    
-}
 
 .especialistas
 {
