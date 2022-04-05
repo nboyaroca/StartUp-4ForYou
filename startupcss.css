@@ -98,7 +98,6 @@ nav {
 					margin-top: 0%;
 				}
 
-
 .foto-perfil
 {
   border-radius:50%;
@@ -111,7 +110,7 @@ nav {
   display: flex;
   justify-content: space-around;
   text-align:center;
-  font-family: "Jost";
+  font-family: "JostRegular";
   background-color: #FF7F99;
   padding-top: 100px;
   padding-bottom: 100px;
