@@ -147,6 +147,18 @@ nav {
 	width: 300px;
 }
 
+.box-centralj{
+	display: flex;
+	justify-content: space-between;
+	padding: 5%;
+   }
+
+.imagen-centralj{
+	width: 600px;
+	height: 600px;
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+	border-top-left-radius: 50%;}
 
 .foto-perfil
 {
