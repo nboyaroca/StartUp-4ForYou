@@ -10,8 +10,18 @@
 	local("Jost-Italic"),
 	url(./Jost/Jost-Italic.ttf);
 }
+
+header{
+	background-color: #FF7F99;
+	display:flex;
+	flex-direction: row;
+}
 body{
     font-family: JostRegular;
+
+h1{
+	font-family: JostRegular;
+	}
 }
 li{
 	font-family: JostCursiva;
@@ -37,7 +47,7 @@ li{
     	font-weight: 700;
 		font-size: 1.2em;
 	}
-nav {
+	nav {
 	float: right;
 }
 	nav ul {
@@ -127,4 +137,39 @@ nav {
 {
   width:40px;
   height:40px;
+}
+
+
+.contenedorMaria{
+	display: flex;
+	flex-direction: row;
+	height: 100wh;
+	border: 2px solid blue;
+}
+
+.fotoCentral{
+	width: 200px;
+    height: 150px;
+	object-fit: cover;
+	border: 2px solid #b278d8;
+	border-bottom-left-radius: 100px;
+	border-top-left-radius: 100px;
+	border-bottom-right-radius: 100px;
+	overflow: hidden;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.textCentral{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.imatgeMaria{
+	width: 200px;
+	height: 200px;
+	border:2px solid #fff;
+	display: flex;
 }
