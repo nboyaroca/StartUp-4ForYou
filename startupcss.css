@@ -11,21 +11,37 @@
 	url(./Jost/Jost-Italic.ttf);
 }
 
+
 header{
 	background-color: #FF7F99;
 	display:flex;
 	flex-direction: row;
 }
+@font-face {
+	font-family: JostBold;
+	src: local("Jost-Bold"), url(./Jost/Jost-Bold.ttf);
+}
+
+@font-face {
+	font-family: JostLight;
+	src: local("Jost-Light"), url(./Jost/Jost-Light.ttf);
+}
+
+@font-face {
+	font-family: JostMedium;
+	src: local("Jost-Medium"), url(./Jost/Jost-Medium.ttf);
+}
+
 body{
     font-family: JostRegular;
 
-h1{
-	font-family: JostRegular;
-	}
+
 }
 li{
 	font-family: JostCursiva;
 }
+
+
 #capçalera {
 	background: #FF7F99;
 	height: 100px;
@@ -38,28 +54,36 @@ li{
 	padding: 15px 0 0 20px;
 	text-decoration: none;
 }
-	#titol-capçalera:hover {
-		color: #45494b;
-	}
-	
-	#titol-capçalera .titol {
+	.titol {
 		display: block;
     	font-weight: 700;
 		font-size: 1.2em;
 	}
-	nav {
+		.button {
+		border-radius: 50px;
+		background-color: #FF7F99;
+		opacity: 0.6;
+		filter: alpha(opacity=80);
+		text-align: center;
+		padding: 1px 24px;
+		background-color: #ffca41 
+	}
+	.button:hover {
+		box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);}
+
+nav {
 	float: right;
 }
 	nav ul {
-		margin: 0;
+		margin: 1;
 		padding: 0;
 		list-style: none;
-		padding-right: 20px;
+		padding-right: 10px;
 	}
 	
 		nav ul li {
 			display: inline-block;
-			line-height: 80px;
+			line-height: 40px;
 		}
 			
 			nav ul li a {
@@ -70,44 +94,79 @@ li{
 			
 				nav ul li a:hover {
 					background: #45494b;
+					box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
                 }
-               
-				
-				.box-central{
-					width: 1877px;
-					height: 800px;
-					border: 5px solid currentColor;
-					display: flex;
-				   }
-				
-				.imagen-central{
-					width: 600px;
-					height: 600px;
-					border:2px solid #fff;
-					display: block;
-					margin-top: 5%;
-					margin-left: 8%;
-					
-				
-				}
-				
-				.frase-principal{
-					margin-top: 30%;
-					margin-left: 50%;
-					font-size: 100px;
-				}
-				
-				.frase-secundaria{
-					margin-top: 0%;
-					
-				}
-				
-				.boton-llamamos{
-					width: 100px;
-					height: 60px;
-					margin-top: 0%;
-				}
 
+				
+.box-central{
+	width: 1877px;
+	height: 800px;
+	display: flex;
+}
+			
+.imagen-central{
+	width: 600px;
+	height: 600px;
+	border:2px solid #fff;
+	display: block;
+	margin-top: 5%;
+	margin-left: 8%;
+}
+	
+.contenedor-frases{
+	padding: 100px 120px;
+	width: fit-content;
+	height: fit-content;
+	line-height: 0px;
+}
+
+.frase-principal{
+	font-size: 95px;
+	font-family: "JostMedium";
+	color: #FF7F99;
+	line-height: 90px;
+	margin-top: 80px;
+}
+
+.frase-secundaria{
+    font-size: 30px;
+	font-family: "JostMedium";
+	margin-left: 10px;
+	margin-top: 40px;
+}
+			
+.boton-llamamos{
+	font-size: 25px;
+	font-family: "JostBold";
+	text-align: center;
+	color: white;
+	background-color: #ffca41;
+	border: 2px #ffca41;
+	width: 250px;
+	height: 80px;
+	border-radius: 40px;
+	margin-top: 80px;
+	transition: width 2s height 4s;
+}
+
+.boton-llamamos:hover{
+	box-shadow: 0 6px 12px 0 rgba(0,0,0,0.24), 0 10px 28px 0 rgba(0,0,0,0.19);
+	transition-duration: 700ms;
+	width: 300px;
+}
+
+.box-centralj{
+	display: flex;
+	justify-content: space-between;
+	padding: 5%;
+   }
+
+.imagen-centralj{
+	width: 600px;
+	height: 600px;
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+	border-top-left-radius: 50%;}
 
 .foto-perfil
 {
@@ -121,7 +180,7 @@ li{
   display: flex;
   justify-content: space-around;
   text-align:center;
-  font-family: "Jost";
+  font-family: "JostRegular";
   background-color: #FF7F99;
   padding-top: 100px;
   padding-bottom: 100px;
