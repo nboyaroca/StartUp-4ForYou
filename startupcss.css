@@ -126,14 +126,17 @@ nav ul li a:hover {
   font-family: "JostMedium";
   color: #ff7f99;
   line-height: 90px;
-  margin-top: 80px;
+  margin: 0px;
 }
 
 .frase-secundaria {
   font-size: 30px;
   font-family: "JostMedium";
-  margin-left: 10px;
-  margin-top: 40px;
+  margin-top: 50px;
+}
+
+p {
+	margin-top: 40px;
 }
 
 .boton-llamamos {
@@ -162,7 +165,7 @@ nav ul li a:hover {
 .box-centralj {
   display: flex;
   justify-content: space-between;
-  padding: 5%;
+  padding: 100px 120px;
 }
 
 .imagen-centralj {
