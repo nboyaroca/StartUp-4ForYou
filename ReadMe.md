@@ -36,20 +36,18 @@ Fist aproach to Visual Studio Code, Git and GitHub using html and css to create 
 
 #### TOOLS 🔧
 >Kanban: Trello
-
-
-
 >Coding: Visual Studio Code
+>
 
 &nbsp;
 
 #### UI DESIGN
 
-*4ForYou-Developers.jpeg* 
-4 For You Team
+![4ForYou-Developers](https://user-images.githubusercontent.com/102729704/170844510-bc6f1a11-3897-46a0-a44a-5c6cc080301d.jpeg)
+*4 For You Team*
 
-*4ForYou-Developers.jpeg*
-Developer Pedro
+![4ForYou-Developer](https://user-images.githubusercontent.com/102729704/170844507-960149a2-61b8-4ca9-a97d-07a4dbebb6ce.jpeg)
+*Developer Pedro*
 
 
 &nbsp;
