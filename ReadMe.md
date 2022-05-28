@@ -36,8 +36,10 @@ Fist aproach to Visual Studio Code, Git and GitHub using html and css to create 
 
 #### TOOLS 🔧
 >Kanban: Trello
+
 >Coding: Visual Studio Code
->
+
+>Designs from *VAGO* in dribbble: https://dribbble.com/V-a-g-o
 
 &nbsp;
 
@@ -53,7 +55,7 @@ Fist aproach to Visual Studio Code, Git and GitHub using html and css to create 
 &nbsp;
 
 ####  NEXT STEPS   👣
-Make the project reponsive 
+Make the project reponsive.
 
 &nbsp;
 
